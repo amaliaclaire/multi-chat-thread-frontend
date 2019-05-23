@@ -20,8 +20,6 @@ const CardExampleGroups = () => (
        3 Comments
      </a>
    </Card.Content>
-
-
     </Card>
   </Card.Group>
 )

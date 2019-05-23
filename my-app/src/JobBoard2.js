@@ -22,7 +22,6 @@ const Leaderboard = () => {
                 </Table.Row>
               </Table.Header>
               <Table.Body>
-
               </Table.Body>
             </Table>
           </Grid.Column>
