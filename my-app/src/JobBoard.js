@@ -1,35 +1,29 @@
+import React from 'react'
+import { Button, Card, Image, Form, Icon } from 'semantic-ui-react'
 
-import React, {Component} from 'react'
-import {Grid, Table, Header, Image, Container} from 'semantic-ui-react'
+const CardExampleGroups = () => (
+  <Card.Group>
 
-const Leaderboard = () => {
-  return (
-    <Container>
-      <Grid>
-        <Grid.Row>
-          <Grid.Column>
-            <h1>Job Board - Beaze Board</h1>
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row>
-          <Grid.Column>
-            <Table celled>
-              <Table.Header>
-                <Table.Row>
-                  <Table.HeaderCell width={2}>Committer</Table.HeaderCell>
-                  <Table.HeaderCell width={5}>Message</Table.HeaderCell>
-                  <Table.HeaderCell width={1}>Likes</Table.HeaderCell>
-                </Table.Row>
-              </Table.Header>
-              <Table.Body>
+    <Card>
+      <Card.Content>
+        <Image floated='right' size='mini' src='https://react.semantic-ui.com/images/avatar/large/jenny.jpg' />
+        <Card.Meta>Jenny Lawrence</Card.Meta>
+        <Card.Header>Title of Job Posting</Card.Header>
+        <Card.Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed orci tristique, volutpat velit sit amet, laoreet libero.</Card.Description>
+      </Card.Content>
+      <Card.Content extra>
+     <a>
+       <Icon
+       name='comments'
+       iconPosition="right"
+       />
+       3 Comments
+     </a>
+   </Card.Content>
 
-              </Table.Body>
-            </Table>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Container>
-  )
-}
 
-export default Leaderboard
+    </Card>
+  </Card.Group>
+)
+
+export default CardExampleGroups
