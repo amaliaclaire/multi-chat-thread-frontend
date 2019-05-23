@@ -5,6 +5,7 @@ import { Container } from 'semantic-ui-react';
 // import JobBoard from './JobBoard';
 import JobBoard from './JobBoard';
 import Ranking from './Ranking'
+import Comments from './Comments'
 
 
 
@@ -12,7 +13,8 @@ import Ranking from './Ranking'
 const App = () => (
   <Container>
     <JobBoard />
-    <Ranking /> 
+    <Ranking />
+    <Comments />
   </Container>
 );
 
