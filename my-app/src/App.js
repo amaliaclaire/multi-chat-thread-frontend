@@ -3,9 +3,9 @@ import { Container } from 'semantic-ui-react';
 
 // import Login from './Login';
 // import JobBoard from './JobBoard';
-import JobBoard from './JobBoard';
-import Ranking from './Ranking'
-import Comments from './Comments'
+import JobBoard from './components/JobBoard';
+import Ranking from './components/Ranking'
+import Comments from './components/Comments'
 
 
 
